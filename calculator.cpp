@@ -6,7 +6,7 @@ class Calculator {
 
     public:
 
-        void calculate(int x, char op, int y) {
+        void calculate(float x, char op, float y) {
 
             switch (op)
             {
@@ -40,7 +40,7 @@ int main() {
 
     Calculator c;
 
-    int x, y;
+    float x, y;
     char op;
 
     string condition;
